@@ -1,4 +1,4 @@
-update=Thu 08 Jun 2017 11:49:51 PM CEST
+update=Fri 09 Jun 2017 06:58:02 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,13 @@ LibName31=espressif-xess
 LibName32=parts
 LibName33=Worldsemi
 LibName34=switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
