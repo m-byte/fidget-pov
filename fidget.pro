@@ -1,4 +1,4 @@
-update=Sat 10 Jun 2017 06:00:55 PM CEST
+update=Sun 11 Jun 2017 06:48:54 AM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -74,3 +74,4 @@ LibName32=parts
 LibName33=Worldsemi
 LibName34=switches
 LibName35=logo
+LibName36=nxp
