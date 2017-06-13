@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../parts.lib
+LibDir=../../parts.lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
