@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="7" oldestCompatibleVersion="7" GPDVersion="6.05.003" lastChange="6/13/17 1:42 PM">
+<GPDProject version="7" oldestCompatibleVersion="7" GPDVersion="6.05.003" lastChange="6/13/17 5:56 PM">
     <generalProjectSettings/>
     <chip family="04" type="04" revision="1" friendlyName="GreenPAK 4">
-        <nvmData registerLenght="1024">30 70 2 87 7 1E 0 0 0 70 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 C7 F 0 0 0 0 0 0 0 0 F1 3 C0 F0 FF 3E 10 0 0 50 1 0 0 0 0 F0 FF 40 60 F 80 C 5C 20 80 0 0 8F 80 10 0 0 0 0 0 0 0 0 0 0 0 30 2B 40 35 2 0 4 0 0 0 80 18 0 6 83 81 C1 C0 80 41 40 1 55 88 0 80 3 0 0 0 0 0 0 0 0 0 0 0 0 5A 0 E0 0 A5</nvmData>
-        <checksum crc32="0xC63EEC09" version="1"/>
+        <nvmData registerLenght="1024">30 70 2 47 F7 1D 0 0 0 30 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7C C7 F 0 0 0 0 0 0 0 4 0 C0 FF F0 FF 3E 10 0 0 50 1 0 0 0 0 F0 FF 40 60 F 80 C 5C 20 80 0 0 8F 80 10 0 0 0 0 0 0 0 0 0 0 0 30 2B 40 35 2 0 4 0 0 0 80 18 0 6 83 81 C1 C0 40 80 1 0 55 88 0 A0 2 0 0 0 0 0 0 0 0 0 0 0 0 5A 0 E0 0 A5</nvmData>
+        <checksum crc32="0xB2DF6A74" version="1"/>
         <VDDItem id="0" viewMode="0" min="3.0000" max="4.2000">
             <item id="0" caption="VDD (PIN 1)">
                 <graphics pos="(-365.00,-370.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
@@ -17,7 +17,7 @@
         <IOPad id="2" useCaseMode="2">
             <item id="2" caption="PIN 3">
                 <graphics pos="(206.03,-31.19)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
-                <textLabel sceneNum="0" pos="(3.33,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">LDO</textLabel>
+                <textLabel sceneNum="0" pos="(-12.94,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">LDO_OUT</textLabel>
             </item>
         </IOPad>
         <IOPad id="3" useCaseMode="0">
@@ -27,7 +27,7 @@
         </IOPad>
         <IOPad id="4" useCaseMode="0">
             <item id="4" caption="PIN 5">
-                <graphics pos="(-371.67,81.00)" angle="0" flipping="0" hidden="1" tOrigin="(20.00,10.00)"/>
+                <graphics pos="(-566.67,-130.00)" angle="0" flipping="0" hidden="1" tOrigin="(20.00,10.00)"/>
             </item>
         </IOPad>
         <IOPad id="5" useCaseMode="0">
@@ -41,41 +41,42 @@
             </item>
         </IOPad>
         <item id="7" caption="GND (PIN 8)">
-            <graphics pos="(-306.67,-370.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            <graphics pos="(-306.67,-370.00)" angle="0" flipping="0" hidden="1" tOrigin="(20.00,10.00)"/>
         </item>
-        <IOPad id="8" useCaseMode="0">
+        <IOPad id="8" useCaseMode="1">
             <item id="8" caption="PIN 9">
-                <graphics pos="(320.00,40.00)" angle="0" flipping="1" hidden="1" tOrigin="(20.00,10.00)"/>
+                <graphics pos="(-425.00,61.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel sceneNum="0" pos="(-5.92,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">LDO_IN</textLabel>
             </item>
         </IOPad>
         <IOPad id="9" useCaseMode="1">
             <item id="9" caption="PIN 10">
-                <graphics pos="(-424.22,20.78)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
-                <textLabel sceneNum="0" pos="(-0.48,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">LDO1</textLabel>
+                <graphics pos="(-425.00,-158.27)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel sceneNum="0" pos="(-4.85,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">ENL_IN</textLabel>
             </item>
         </IOPad>
-        <IOPad id="10" useCaseMode="1">
+        <IOPad id="10" useCaseMode="2">
             <item id="10" caption="PIN 11">
-                <graphics pos="(-424.22,-158.27)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
-                <textLabel sceneNum="0" pos="(0.58,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">ENL1</textLabel>
-            </item>
-        </IOPad>
-        <IOPad id="11" useCaseMode="2">
-            <item id="11" caption="PIN 12">
                 <graphics pos="(206.03,81.29)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
                 <textLabel sceneNum="0" pos="(-10.76,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">IDX_OUT</textLabel>
             </item>
         </IOPad>
-        <IOPad id="12" useCaseMode="1">
+        <IOPad id="11" useCaseMode="1">
+            <item id="11" caption="PIN 12">
+                <graphics pos="(-425.00,-55.43)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel sceneNum="0" pos="(-3.74,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">IDX_IN</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="12" useCaseMode="2">
             <item id="12" caption="PIN 13">
-                <graphics pos="(-424.22,-55.43)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
-                <textLabel sceneNum="0" pos="(5.51,-38.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">IDX</textLabel>
+                <graphics pos="(206.03,-260.43)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel sceneNum="0" pos="(-11.38,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">TLV_OUT</textLabel>
             </item>
         </IOPad>
         <IOPad id="13" useCaseMode="2">
             <item id="13" caption="PIN 14">
                 <graphics pos="(206.03,-139.25)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
-                <textLabel sceneNum="0" pos="(4.39,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">ENL</textLabel>
+                <textLabel sceneNum="0" pos="(-11.88,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">ENL_OUT</textLabel>
             </item>
         </IOPad>
         <LUT id="14" regularShape="0" mode="2">
@@ -105,7 +106,7 @@
         </LUT>
         <LUT id="19" regularShape="0" mode="0">
             <item id="19" caption="3-bit LUT1">
-                <graphics pos="(-10.00,-240.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+                <graphics pos="(105.00,-271.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
             </item>
         </LUT>
         <LUT id="20" regularShape="0" mode="0">
@@ -244,7 +245,7 @@
             <points>(-30.00,-40.00); (-14.00,-40.00)</points>
         </wire>
         <wire output="36" input="44" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
-            <points>(57.00,-26.00); (74.09,-26.00); (74.09,-126.00); (86.00,-126.00)</points>
+            <points>(57.00,-26.00); (76.00,-26.00); (76.00,-126.00); (86.00,-126.00)</points>
         </wire>
         <wire output="189" input="109" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="POR" wireState="1">
             <points/>
@@ -252,17 +253,11 @@
         <wire output="0" input="107" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="VDD" wireState="1">
             <points/>
         </wire>
-        <wire output="13" input="45" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
-            <points>(-364.00,-143.00); (86.00,-143.00)</points>
-        </wire>
         <wire output="36" input="1" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(57.00,-26.00); (185.00,-26.00)</points>
         </wire>
         <wire output="0" input="2" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="VDD" wireState="1">
             <points/>
-        </wire>
-        <wire output="12" input="57" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
-            <points>(-364.00,36.00); (-53.67,36.00); (-53.67,-26.00); (-14.00,-26.00)</points>
         </wire>
         <wire output="30" input="23" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(164.00,-134.00); (185.00,-134.00)</points>
@@ -271,19 +266,28 @@
             <points/>
         </wire>
         <wire output="36" input="47" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
-            <points>(57.00,-26.00); (74.00,-26.00); (74.00,79.00); (84.00,79.00)</points>
+            <points>(57.00,-26.00); (76.00,-26.00); (76.00,79.00); (84.00,79.00)</points>
         </wire>
-        <wire output="0" input="20" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="VDD" wireState="1">
-            <points/>
+        <wire output="11" input="57" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-365.00,77.00); (-52.00,77.00); (-52.00,-26.00); (-14.00,-26.00)</points>
         </wire>
-        <wire output="15" input="37" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
-            <points>(-364.00,-40.00); (-334.00,-40.00)</points>
+        <wire output="12" input="45" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-365.00,-143.00); (86.00,-143.00)</points>
         </wire>
-        <wire output="31" input="19" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+        <wire output="31" input="17" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(162.00,87.00); (185.00,87.00)</points>
         </wire>
-        <wire output="15" input="46" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
-            <points>(-364.00,-40.00); (-349.00,-40.00); (-349.00,95.00); (84.00,95.00)</points>
+        <wire output="14" input="37" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-365.00,-40.00); (-334.00,-40.00)</points>
+        </wire>
+        <wire output="0" input="22" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="14" input="46" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-365.00,-40.00); (-344.00,-40.00); (-344.00,95.00); (84.00,95.00)</points>
+        </wire>
+        <wire output="55" input="21" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="0" wireText="UVLOn" wireState="1">
+            <points/>
         </wire>
     </chip>
     <emulatorConfiguration version="0" friendlyName="GreenPAK Universal Tool">
