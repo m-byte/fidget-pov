@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GPDProject version="7" oldestCompatibleVersion="7" GPDVersion="6.05.003" lastChange="6/13/17 1:13 PM">
+<GPDProject version="7" oldestCompatibleVersion="7" GPDVersion="6.05.003" lastChange="6/13/17 1:42 PM">
     <generalProjectSettings/>
     <chip family="04" type="04" revision="1" friendlyName="GreenPAK 4">
-        <nvmData registerLenght="1024">30 70 2 87 D7 1D 0 0 0 70 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 C7 F 0 0 0 0 0 0 0 0 F1 3 C0 F0 FF 3E 10 0 0 50 1 0 0 0 0 F0 FF 40 60 F 80 C 5C 20 80 0 0 8F 80 10 0 0 0 0 0 0 0 0 0 0 0 30 2B 40 35 2 0 4 0 0 0 80 18 0 6 83 81 C1 C0 80 41 40 1 55 88 0 80 3 0 0 0 0 0 0 0 0 0 0 0 0 5A 0 E0 0 A5</nvmData>
-        <checksum crc32="0x36B7433" version="1"/>
+        <nvmData registerLenght="1024">30 70 2 87 7 1E 0 0 0 70 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 C7 F 0 0 0 0 0 0 0 0 F1 3 C0 F0 FF 3E 10 0 0 50 1 0 0 0 0 F0 FF 40 60 F 80 C 5C 20 80 0 0 8F 80 10 0 0 0 0 0 0 0 0 0 0 0 30 2B 40 35 2 0 4 0 0 0 80 18 0 6 83 81 C1 C0 80 41 40 1 55 88 0 80 3 0 0 0 0 0 0 0 0 0 0 0 0 5A 0 E0 0 A5</nvmData>
+        <checksum crc32="0xC63EEC09" version="1"/>
         <VDDItem id="0" viewMode="0" min="3.0000" max="4.2000">
             <item id="0" caption="VDD (PIN 1)">
                 <graphics pos="(-365.00,-370.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
@@ -279,11 +279,11 @@
         <wire output="15" input="37" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(-364.00,-40.00); (-334.00,-40.00)</points>
         </wire>
-        <wire output="12" input="46" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
-            <points>(-364.00,36.00); (-53.64,36.00); (-53.64,95.00); (84.00,95.00)</points>
-        </wire>
         <wire output="31" input="19" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
             <points>(162.00,87.00); (185.00,87.00)</points>
+        </wire>
+        <wire output="15" input="46" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-364.00,-40.00); (-349.00,-40.00); (-349.00,95.00); (84.00,95.00)</points>
         </wire>
     </chip>
     <emulatorConfiguration version="0" friendlyName="GreenPAK Universal Tool">
