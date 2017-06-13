@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPDProject version="7" oldestCompatibleVersion="7" GPDVersion="6.05.003" lastChange="6/13/17 12:26 PM">
+    <generalProjectSettings/>
+    <chip family="04" type="04" revision="1" friendlyName="GreenPAK 4">
+        <nvmData registerLenght="1024">30 70 2 87 7 0 0 0 0 70 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7C C7 F 0 0 0 0 0 0 0 0 0 C 3F 0 FC 3E 10 0 0 50 1 0 0 0 0 F0 FF 40 60 F 80 C 5C 20 80 0 0 8F 80 10 0 0 0 0 0 0 0 0 0 0 0 30 2B 40 35 2 0 4 0 0 0 80 18 0 6 83 81 C1 0 80 81 1 60 55 8 0 80 3 0 0 0 0 0 0 0 0 0 0 0 0 5A 0 E0 0 A5</nvmData>
+        <checksum crc32="0xF0B66849" version="1"/>
+        <VDDItem id="0" viewMode="0" min="3.0000" max="4.2000">
+            <item id="0" caption="VDD (PIN 1)">
+                <graphics pos="(-365.00,-370.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </VDDItem>
+        <IOPad id="1" useCaseMode="0">
+            <item id="1" caption="PIN 2">
+                <graphics pos="(402.00,-70.00)" angle="0" flipping="0" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="2" useCaseMode="2">
+            <item id="2" caption="PIN 3">
+                <graphics pos="(252.14,-31.19)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel sceneNum="0" pos="(3.33,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">LDO</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="3" useCaseMode="0">
+            <item id="3" caption="PIN 4">
+                <graphics pos="(-331.00,-29.00)" angle="0" flipping="0" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="4" useCaseMode="0">
+            <item id="4" caption="PIN 5">
+                <graphics pos="(-371.67,81.00)" angle="0" flipping="0" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="5" useCaseMode="0">
+            <item id="5" caption="PIN 6">
+                <graphics pos="(-61.00,261.00)" angle="270" flipping="0" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="6" useCaseMode="0">
+            <item id="6" caption="PIN 7">
+                <graphics pos="(0.00,260.00)" angle="270" flipping="0" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <item id="7" caption="GND (PIN 8)">
+            <graphics pos="(-306.67,-370.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+        </item>
+        <IOPad id="8" useCaseMode="0">
+            <item id="8" caption="PIN 9">
+                <graphics pos="(320.00,40.00)" angle="0" flipping="1" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <IOPad id="9" useCaseMode="1">
+            <item id="9" caption="PIN 10">
+                <graphics pos="(-421.67,20.78)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel sceneNum="0" pos="(-0.48,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">LDO1</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="10" useCaseMode="1">
+            <item id="10" caption="PIN 11">
+                <graphics pos="(-421.67,-115.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel sceneNum="0" pos="(0.58,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">ENL1</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="11" useCaseMode="1">
+            <item id="11" caption="PIN 12">
+                <graphics pos="(-421.67,-55.89)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel sceneNum="0" pos="(5.51,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">IDX</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="12" useCaseMode="2">
+            <item id="12" caption="PIN 13">
+                <graphics pos="(253.25,-135.62)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel sceneNum="0" pos="(4.39,-38.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">ENL</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="13" useCaseMode="0">
+            <item id="13" caption="PIN 14">
+                <graphics pos="(-60.00,-380.00)" angle="270" flipping="1" hidden="1" tOrigin="(20.00,10.00)"/>
+            </item>
+        </IOPad>
+        <LUT id="14" regularShape="0" mode="2">
+            <item id="14" caption="2-bit LUT0">
+                <graphics pos="(-367.67,-261.00)" angle="90" flipping="0" hidden="0" tOrigin="(18.00,17.00)"/>
+            </item>
+        </LUT>
+        <LUT id="15" regularShape="0" mode="2">
+            <item id="15" caption="2-bit LUT1">
+                <graphics pos="(-87.00,-56.67)" angle="90" flipping="0" hidden="0" tOrigin="(18.00,17.00)"/>
+            </item>
+        </LUT>
+        <LUT id="16" regularShape="0" mode="0">
+            <item id="16" caption="2-bit LUT2">
+                <graphics pos="(142.65,-81.81)" angle="90" flipping="0" hidden="0" tOrigin="(22.29,16.69)"/>
+            </item>
+        </LUT>
+        <LUT id="17" regularShape="0" mode="0">
+            <item id="17" caption="2-bit LUT3">
+                <graphics pos="(-100.00,-140.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="18" regularShape="0" mode="0">
+            <item id="18" caption="3-bit LUT0">
+                <graphics pos="(2.44,-41.67)" angle="90" flipping="0" hidden="0" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="19" regularShape="0" mode="0">
+            <item id="19" caption="3-bit LUT1">
+                <graphics pos="(-10.00,-240.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="20" regularShape="0" mode="0">
+            <item id="20" caption="3-bit LUT2">
+                <graphics pos="(-10.00,-190.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="21" regularShape="0" mode="0">
+            <item id="21" caption="3-bit LUT3">
+                <graphics pos="(-10.00,-140.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="22" caption="DFF/LATCH4">
+            <graphics pos="(310.00,190.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <item id="23" caption="DFF/LATCH5">
+            <graphics pos="(310.00,240.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <item id="24" caption="A CMP0">
+            <graphics pos="(-64.33,-279.00)" angle="0" flipping="0" hidden="0" tOrigin="(22.50,25.00)"/>
+        </item>
+        <item id="25" caption="A CMP1">
+            <graphics pos="(-210.00,0.00)" angle="0" flipping="0" hidden="1" tOrigin="(22.50,25.00)"/>
+        </item>
+        <item id="26" caption="DCMP0/PWM0">
+            <graphics pos="(180.00,-160.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,35.00)"/>
+        </item>
+        <item id="27" caption="DCMP1/PWM1">
+            <graphics pos="(180.00,-80.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,35.00)"/>
+        </item>
+        <item id="28" caption="DCMP2/PWM2">
+            <graphics pos="(180.00,0.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,35.00)"/>
+        </item>
+        <CNTDLY id="29" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="29" caption="WS Ctrl/14-bit CNT0/DLY0">
+                <graphics pos="(-154.00,-115.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <CNTDLY id="30" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="30" caption="8-bit CNT1/DLY1">
+                <graphics pos="(170.00,230.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <item id="31" caption="OSC">
+            <graphics pos="(-279.67,-263.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,35.00)"/>
+        </item>
+        <item id="32" caption="P DLY">
+            <graphics pos="(-302.90,-50.29)" angle="0" flipping="2" hidden="0" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="33" caption="VREF">
+            <graphics pos="(320.00,-340.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="34" caption="POR">
+            <graphics pos="(-240.00,-370.00)" angle="0" flipping="0" hidden="0" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="35" caption="ADC">
+            <graphics pos="(180.00,-230.00)" angle="0" flipping="2" hidden="1" tOrigin="(25.00,30.00)"/>
+        </item>
+        <item id="36" caption="SPI">
+            <graphics pos="(180.00,80.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,40.00)"/>
+        </item>
+        <item id="37" caption="BG">
+            <graphics pos="(320.00,-280.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
+        </item>
+        <LUT id="38" regularShape="0" mode="0">
+            <item id="38" caption="2-bit LUT4/DFF/LATCH0">
+                <graphics pos="(-100.00,-90.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="39" regularShape="0" mode="0">
+            <item id="39" caption="2-bit LUT5/DFF/LATCH1">
+                <graphics pos="(-100.00,-40.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="40" regularShape="0" mode="0">
+            <item id="40" caption="3-bit LUT4/DFF/LATCH2">
+                <graphics pos="(-10.00,-90.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="41" regularShape="0" mode="0">
+            <item id="41" caption="3-bit LUT5/DFF/LATCH3">
+                <graphics pos="(-10.00,-40.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="42" regularShape="0" mode="0">
+            <item id="42" caption="3-bit LUT6/Pipe Delay">
+                <graphics pos="(-10.00,10.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="43" regularShape="0" mode="0">
+            <item id="43" caption="3-bit LUT7/8-bit CNT3/DLY3/FSM1">
+                <graphics pos="(-10.00,60.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="44" regularShape="0" mode="0">
+            <item id="44" caption="4-bit LUT0/PGEN">
+                <graphics pos="(80.00,-290.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <CNTDLY id="45" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="45" caption="4-bit LUT1/14-bit CNT2/DLY2/FSM0">
+                <graphics pos="(-216.25,-62.24)" angle="0" flipping="0" hidden="0" tOrigin="(35.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <item id="46" caption="PGA">
+            <graphics pos="(-210.00,70.00)" angle="0" flipping="0" hidden="1" tOrigin="(22.50,25.00)"/>
+        </item>
+        <item id="47" caption="DAC0">
+            <graphics pos="(-210.00,210.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,15.00)"/>
+        </item>
+        <item id="48" caption="DAC1">
+            <graphics pos="(-210.00,250.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,15.00)"/>
+        </item>
+        <item id="49" caption="PWR DET">
+            <graphics pos="(210.00,-340.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <wire output="55" input="56" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="0" wireText="UVLOn" wireState="1">
+            <points/>
+        </wire>
+        <wire output="28" input="129" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-311.00,-244.00); (-301.00,-245.00)</points>
+        </wire>
+        <wire output="55" input="40" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="0" wireText="UVLOn" wireState="1">
+            <points/>
+        </wire>
+        <wire output="23" input="260" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-248.00,-40.00); (-237.00,-40.00)</points>
+        </wire>
+        <wire output="64" input="263" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="1" wireText="LFOSC" wireState="1">
+            <points/>
+        </wire>
+        <wire output="185" input="42" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-126.00,-40.00); (-109.00,-40.00)</points>
+        </wire>
+        <wire output="29" input="58" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-31.00,-40.00); (-14.00,-40.00)</points>
+        </wire>
+        <wire output="36" input="44" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(57.00,-26.00); (115.00,-26.00); (115.00,-57.00); (125.00,-57.00)</points>
+        </wire>
+        <wire output="189" input="109" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="POR" wireState="1">
+            <points/>
+        </wire>
+        <wire output="0" input="107" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="14" input="37" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-362.00,-40.00); (-324.00,-40.00)</points>
+        </wire>
+        <wire output="13" input="45" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-362.00,-99.00); (105.00,-99.00); (105.00,-73.00); (125.00,-73.00)</points>
+        </wire>
+        <wire output="30" input="21" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(203.00,-65.00); (222.00,-65.00); (222.00,-130.00); (232.00,-130.00)</points>
+        </wire>
+        <wire output="0" input="22" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="36" input="1" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(57.00,-26.00); (231.00,-26.00)</points>
+        </wire>
+        <wire output="0" input="2" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="12" input="57" autoRouting="1" pen="#00ff00ff;1.00;1;32;128" protected="0" CWLid="-1" wireText="" wireState="0">
+            <points>(-362.00,36.00); (-50.76,36.00); (-50.76,-26.00); (-14.00,-26.00)</points>
+        </wire>
+    </chip>
+    <emulatorConfiguration version="0" friendlyName="GreenPAK Universal Tool">
+        <settings>
+            <autoApply value="0"/>
+        </settings>
+        <lastConfiguration>
+            <SaveEmulator Name="Default">
+                <PowerSwitch internalPower="1" externalPower="0"/>
+                <ExpansionConnector></ExpansionConnector>
+                <TestPoints/>
+            </SaveEmulator>
+        </lastConfiguration>
+        <savedConfigurations/>
+    </emulatorConfiguration>
+    <projectData>
+        <specs>
+            <lastModify lastModifyValue="13.06.2017 7:39:26"/>
+            <vddSpecs vddMin="3" vddTyp="3.7" vddMax="4.2"/>
+            <vdd2Specs/>
+            <tempSpecs tempMin="-40" tempTyp="25" tempMax="85"/>
+        </specs>
+        <projectDataFields>
+            <intDataField name="Silego&#10;Part Number:" id="1" value="1"/>
+            <textLineDataField name="Customer&#10;Name:" id="2" text=""/>
+            <textLineDataField name="Customer&#10;Project Name:" id="3" text="Fidget"/>
+            <textLineDataField name="Customer&#10;Project Number:" id="4" text="1"/>
+            <textLineDataField name="Customer&#10;Version Number:" id="5" text="1"/>
+            <multiTextLineDataField>
+                <textLineDataField name="Notes:" id="6" text=""/>
+            </multiTextLineDataField>
+        </projectDataFields>
+    </projectData>
+    <printEditorState data="&lt;?xml version=&quot;1.0&quot;?&gt;&#10;&lt;state&gt;&#10;    &lt;info version=&quot;2&quot;/&gt;&#10;    &lt;blocks&gt;&#10;        &lt;block name=&quot;2-L0&quot; x=&quot;2075&quot; y=&quot;2682&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;2-L1&quot; x=&quot;1426.44&quot; y=&quot;3697.78&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;2-L2&quot; x=&quot;2210.2&quot; y=&quot;3487.3&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;2-bit LUT3&quot; x=&quot;2852&quot; y=&quot;2458&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;2-bit LUT4&quot; x=&quot;2852&quot; y=&quot;3010&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;2-bit LUT5&quot; x=&quot;2852&quot; y=&quot;4025&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;3-bit LUT0&quot; x=&quot;1782.11&quot; y=&quot;3716.33&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;3-bit LUT1&quot; x=&quot;3333&quot; y=&quot;1468&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;3-bit LUT2&quot; x=&quot;3333&quot; y=&quot;1962&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;3-bit LUT3&quot; x=&quot;3333&quot; y=&quot;2458&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;3-bit LUT4&quot; x=&quot;3333&quot; y=&quot;3010&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;3-bit LUT5&quot; x=&quot;3333&quot; y=&quot;4025&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;3-bit LUT6&quot; x=&quot;3333&quot; y=&quot;5440&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;3-bit LUT7&quot; x=&quot;3333&quot; y=&quot;6579&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;4-bit LUT0&quot; x=&quot;3814&quot; y=&quot;150&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;A CMP0&quot; x=&quot;1193&quot; y=&quot;2488.33&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;A CMP1&quot; x=&quot;1204&quot; y=&quot;4795&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;ADC&quot; x=&quot;4528&quot; y=&quot;1478&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;1&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;BG&quot; x=&quot;5878&quot; y=&quot;664&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;CNT0/DLY0&quot; x=&quot;1808&quot; y=&quot;2771&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;CNT1/DLY1&quot; x=&quot;4172&quot; y=&quot;7283&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;CNT2/DLY2/FSM0&quot; x=&quot;855.745&quot; y=&quot;3588.54&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;DAC0&quot; x=&quot;1204&quot; y=&quot;7017&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;DAC1&quot; x=&quot;1204&quot; y=&quot;7517&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;DCMP0 PWM0&quot; x=&quot;4528&quot; y=&quot;1992&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;DCMP1 PWM1&quot; x=&quot;4528&quot; y=&quot;3308&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;DCMP2 PWM2&quot; x=&quot;4528&quot; y=&quot;4795&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;DFF 4&quot; x=&quot;5558&quot; y=&quot;6997&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;DFF 5&quot; x=&quot;5558&quot; y=&quot;7507&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;General settings&quot; x=&quot;-187&quot; y=&quot;2443.33&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;OSC&quot; x=&quot;2336&quot; y=&quot;2441&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;P DLY&quot; x=&quot;312.765&quot; y=&quot;3783.71&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;1&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PGA&quot; x=&quot;1204&quot; y=&quot;5954&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;PIN 10&quot; x=&quot;-412.917&quot; y=&quot;4020.03&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 11&quot; x=&quot;-412.778&quot; y=&quot;3403.78&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 12&quot; x=&quot;-413.095&quot; y=&quot;3701.44&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 13&quot; x=&quot;2604.81&quot; y=&quot;3583.08&quot; angle=&quot;0&quot; hFlip=&quot;1&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 14&quot; x=&quot;2892&quot; y=&quot;-380&quot; angle=&quot;0&quot; hFlip=&quot;1&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;PIN 2&quot; x=&quot;6351&quot; y=&quot;3764&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;PIN 3&quot; x=&quot;2603.7&quot; y=&quot;3830.7&quot; angle=&quot;0&quot; hFlip=&quot;1&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PIN 4&quot; x=&quot;207&quot; y=&quot;4324&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;PIN 5&quot; x=&quot;166.333&quot; y=&quot;6600&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;PIN 6&quot; x=&quot;2891&quot; y=&quot;7528&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;PIN 7&quot; x=&quot;3343&quot; y=&quot;7527&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;PIN 9&quot; x=&quot;5878&quot; y=&quot;5758&quot; angle=&quot;0&quot; hFlip=&quot;1&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;POR&quot; x=&quot;120.667&quot; y=&quot;3023.33&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;1&quot;/&gt;&#10;        &lt;block name=&quot;PWR DET&quot; x=&quot;5066&quot; y=&quot;-6&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;SPI&quot; x=&quot;4528&quot; y=&quot;5964&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;        &lt;block name=&quot;VREF&quot; x=&quot;5878&quot; y=&quot;-6&quot; angle=&quot;0&quot; hFlip=&quot;0&quot; vFlip=&quot;0&quot; visible=&quot;0&quot;/&gt;&#10;    &lt;/blocks&gt;&#10;    &lt;wires&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;2-L0&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;OSC&quot; pin=&quot;pwr down&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;2235&quot; y=&quot;2751&quot;/&gt;&#10;                &lt;point x=&quot;2244&quot; y=&quot;2751&quot;/&gt;&#10;                &lt;point x=&quot;2326&quot; y=&quot;2749&quot;/&gt;&#10;                &lt;point x=&quot;2336&quot; y=&quot;2749&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;2-L1&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;3-bit LUT0&quot; pin=&quot;in2&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;1586&quot; y=&quot;3767&quot;/&gt;&#10;                &lt;point x=&quot;1595&quot; y=&quot;3767&quot;/&gt;&#10;                &lt;point x=&quot;1772&quot; y=&quot;3767&quot;/&gt;&#10;                &lt;point x=&quot;1782&quot; y=&quot;3767&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;2-L2&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;PIN 13&quot; pin=&quot;in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;2508&quot; y=&quot;3619&quot;/&gt;&#10;                &lt;point x=&quot;2517&quot; y=&quot;3619&quot;/&gt;&#10;                &lt;point x=&quot;2595&quot; y=&quot;3619&quot;/&gt;&#10;                &lt;point x=&quot;2605&quot; y=&quot;3619&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;3-bit LUT0&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;2-L2&quot; pin=&quot;in0&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;2038&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;2047&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;2077&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;2077&quot; y=&quot;3685&quot;/&gt;&#10;                &lt;point x=&quot;2202&quot; y=&quot;3685&quot;/&gt;&#10;                &lt;point x=&quot;2214&quot; y=&quot;3685&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;3-bit LUT0&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;PIN 3&quot; pin=&quot;in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;2038&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;2047&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;2594&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;2604&quot; y=&quot;3867&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;CNT2/DLY2/FSM0&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;2-L1&quot; pin=&quot;in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;1353&quot; y=&quot;3767&quot;/&gt;&#10;                &lt;point x=&quot;1362&quot; y=&quot;3767&quot;/&gt;&#10;                &lt;point x=&quot;1416&quot; y=&quot;3767&quot;/&gt;&#10;                &lt;point x=&quot;1426&quot; y=&quot;3767&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;P DLY&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;CNT2/DLY2/FSM0&quot; pin=&quot;set in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;703&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;712&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;846&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;856&quot; y=&quot;3867&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;PIN 10&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;3-bit LUT0&quot; pin=&quot;in1&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;150&quot; y=&quot;4154&quot;/&gt;&#10;                &lt;point x=&quot;159&quot; y=&quot;4154&quot;/&gt;&#10;                &lt;point x=&quot;1604.5&quot; y=&quot;4154&quot;/&gt;&#10;                &lt;point x=&quot;1604.5&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;1772&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;1782&quot; y=&quot;3867&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;PIN 11&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;2-L2&quot; pin=&quot;in1&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;150&quot; y=&quot;3553&quot;/&gt;&#10;                &lt;point x=&quot;159&quot; y=&quot;3553&quot;/&gt;&#10;                &lt;point x=&quot;2202&quot; y=&quot;3553&quot;/&gt;&#10;                &lt;point x=&quot;2214&quot; y=&quot;3553&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;        &lt;wire&gt;&#10;            &lt;firstPin block=&quot;PIN 12&quot; pin=&quot;out&quot;/&gt;&#10;            &lt;secondPin block=&quot;P DLY&quot; pin=&quot;in&quot;/&gt;&#10;            &lt;points&gt;&#10;                &lt;point x=&quot;150&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;159&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;303&quot; y=&quot;3867&quot;/&gt;&#10;                &lt;point x=&quot;313&quot; y=&quot;3867&quot;/&gt;&#10;            &lt;/points&gt;&#10;        &lt;/wire&gt;&#10;    &lt;/wires&gt;&#10;    &lt;customText/&gt;&#10;    &lt;customFig/&gt;&#10;&lt;/state&gt;&#10;"/>
+</GPDProject>
