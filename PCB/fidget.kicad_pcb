@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.16)
+    (last_trace_width 0.25)
     (user_trace_width 0.16)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
@@ -3972,7 +3972,7 @@
   )
 
   (module Symbols:OSHW-Logo_7.5x8mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 593C3AD0)
-    (at 87.5 61.75 180)
+    (at 89.25 57.25 180)
     (descr "Open Source Hardware Logo")
     (tags "Logo OSHW")
     (path /593C1D56)
@@ -4480,10 +4480,10 @@
   (gr_text 5V (at 116.2 61 30) (layer F.SilkS) (tstamp 593C1386)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text - (at 97.8 83.6) (layer F.SilkS)
+  (gr_text - (at 97 83.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text + (at 102.2 83.6) (layer F.SilkS)
+  (gr_text + (at 103 83.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_circle (center 100 70) (end 100 57) (layer Dwgs.User) (width 0.2) (tstamp 593AF4C4))
